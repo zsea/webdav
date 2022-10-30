@@ -7,7 +7,6 @@ const stream_1 = require("stream");
 const JSCompatibility_1 = require("webdav-server/lib/helper/JSCompatibility");
 const Errors_1 = require("webdav-server/lib/Errors");
 const Path_1 = require("webdav-server/lib/manager/v2/Path");
-const Bluebird = require("bluebird");
 //import Snowflake from "@zsea/snowflake"
 const Snowflake = require("@zsea/snowflake");
 const snowflake = new Snowflake();

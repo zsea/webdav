@@ -26,7 +26,6 @@ import { RequestContext } from 'webdav-server/lib/server/v2/RequestContext'
 import { startsWith } from 'webdav-server/lib/helper/JSCompatibility'
 import { Errors } from 'webdav-server/lib/Errors'
 import { Path } from 'webdav-server/lib/manager/v2/Path'
-const Bluebird = require("bluebird")
 //import Snowflake from "@zsea/snowflake"
 const Snowflake = require("@zsea/snowflake");
 const snowflake = new Snowflake();
